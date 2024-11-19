@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.calculator{
+    background: #A69CAC;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.219);
+    margin:auto;
+    flex: 2;
+    border-radius: 10px;
+}
+body{
+    height: 100vh;
+    background-color: #474973;
+    display: grid;
+}
+.context{
+    text-align: center;
+    font-size: 4rem;
+    color: aliceblue;
+}
+.btn{
+    padding: 20px;
+    background-color: #161B33;
+    color: aliceblue;
+    margin: 3px 3px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.display input{
+    margin: 20px 0px;
+    padding: 15px 5px;
+    border-radius: 10px;
+    font-size: 1.35rem;
+    text-align: right;
+    background-color: #218380; 
+    color: white;
+}
+.btn-equal{
+    padding: 20px 46px;
+    background-color: #258A45;
+    color: aliceblue;
+    margin: 3px 3px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-AC{
+    padding: 20px 17px;
+    background-color: #990D0D;
+    color: aliceblue;
+    margin: 3px 3px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-DEL{
+    padding: 20px 14px;
+    background-color: #990D0D;
+    color: aliceblue;
+    margin: 3px 3px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-method{
+    padding: 20px;
+    background-color: #96930D;
+    color: aliceblue;
+    margin: 3px 3px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
